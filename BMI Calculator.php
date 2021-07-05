@@ -65,11 +65,11 @@ if(isset($_POST['submit']))
 
 	{
 
-		echo "You are unfit";
+		echo "You are unfit and underweight";
 
 	}
 
-	elseif($bmi=18.5||$bmi>25)
+	elseif($bmi=18.5||$bmi>20)
 
 	{
 
@@ -85,7 +85,7 @@ if(isset($_POST['submit']))
 
 	}
 
-	else
+	elseif($bmi=30||$bmi>30)
 
 	{
 
